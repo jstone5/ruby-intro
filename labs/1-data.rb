@@ -12,9 +12,11 @@
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
-# rand(1..6)
+roll1 = rand(1..6)
+roll2 = rand(1..6)
 # Log output to the screen with puts, e.g.
-# puts "Hello"
+puts roll1
+puts roll2
 # You can add two strings together, or two numbers, but
 # not a string and a number; e.g. this will cause an error:
 # "i would like " + 5 + " tacos"

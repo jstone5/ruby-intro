@@ -15,7 +15,21 @@
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
-# rand(1..6)
+roll1 = rand(1..6)
+roll2 = rand(1..6)
+total = roll1 + roll2
+puts roll1
+puts roll2
+puts "The total roll is: #{total}"
+
+if total == 7 || total == 11
+    puts "YOU WIN!"
+elsif total == 2 || total == 3 || total == 12
+    puts "YOU LOSE!"
+else
+    puts "THE POINT IS #{total}"
+end
+
 # Log output to the screen with puts, e.g.
 # puts "Hello"
 # You can add two strings together, or two numbers, but
